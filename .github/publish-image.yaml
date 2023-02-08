@@ -1,0 +1,11 @@
+on:
+  push:
+    refs:
+    - main
+    
+jobs:
+- name: build-image
+  steps:
+  - name: build
+    script: |
+      docker build .
