@@ -4,7 +4,7 @@ on:
     - main
     
 jobs:
-- name: build-image
+  name: build-image
   steps:
   - name: build
     script: |
